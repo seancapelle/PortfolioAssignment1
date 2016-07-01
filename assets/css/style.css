@@ -1,0 +1,469 @@
+/*Styling for all pages*/
+body {
+	max-width: 960px;
+}
+.body {
+	height: 450px;
+	background-image: url(../images/witewall_3.png);
+	border-top: 2px solid #666;
+	border-bottom: 5px solid #4aaaa5;
+}
+.row {
+	max-width: 960px;
+}
+p {
+	margin-bottom: 12px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+a {
+	text-decoration: none;
+}
+/*Styling for header*/
+header {
+	background-color: #fff;
+}
+header h1 {
+	float: left;
+	background-color: #4aaaa5;
+	padding: 10px;
+	display: inline-block;
+	margin-left: 75px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 2em;
+	color: #fff;
+	width: 60%;
+	text-align: center;
+	box-sizing: border-box;
+}
+ul {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding-top: 15px;
+}
+li a{
+	text-decoration: none;
+	padding: 8px 0 8px 16px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #666;
+}
+li {
+	display: inline;
+}
+/*li a:hover {
+	position: relative;
+  	top: -2px;
+ 	left: -2px;
+ 	text-decoration: none;
+}*/
+/*Styling for left section*/
+.left {
+	background-color: #fff;
+	float: left;
+	margin: 0 1.5%;
+	width: 50%;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 90px;
+	padding: 10px;
+	box-shadow: 5px 5px 5px #666;
+}
+.left h2 {
+	margin-bottom: 20px;
+	margin-left: 10px;
+	border-bottom: 1px solid #666;
+	padding: 10px;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	font-size: 1.5em;
+}
+.profilePic{
+	float: left;
+	margin: 15px;
+	width: 150px;
+	height: auto;
+}
+/*.left img:hover {
+  box-shadow: 5px 5px 5px #666;
+  position: relative;
+  top: -2px;
+  left: -2px;
+}*/
+/*Styling for right section*/
+.right {
+	background-color: #fff;
+	float: right;
+	margin: 0 1.5%;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 90px;
+	width: 25%;
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 5px 5px 5px #666;
+}
+.right h3 {
+	padding: 10px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 1.25em;
+	color: #4aaaa5;
+	border-bottom: 1px solid #666;
+}
+.right img {
+	margin-top: 10px;
+	width: 50px;
+	height: auto;
+}
+/*.right img:hover {
+	position: relative;
+  	top: -2px;
+ 	left: -2px;
+ 	box-shadow: 5px 5px 5px #666;
+}*/
+/*Styling for footer*/
+footer {
+	background-color: #666;
+	padding: 20px;
+	text-align: center;
+	font-size: .75em;
+	color: #fff;
+	clear: both;
+	max-width: 960px;
+}
+/*Styling for About Me section*/
+.left p {
+	text-align: justify;
+	text-justify: inter-word;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/*Styling for Contact page*/
+.contactBody {
+		height: 460px;
+		background-image: url(../images/witewall_3.png);
+		border-top: 2px solid #666;
+		border-bottom: 5px solid #4aaaa5;
+	}
+input {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.formField {
+	margin-left: 20px;
+}
+.text {
+	width: 95%;
+	padding-right: 10px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+textarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 100px;
+	width: 95%;
+	padding-right: 10px;
+	padding-bottom: 70px;
+	padding-left: 10px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+input[type=submit] {
+	background-color: #4aaaa5;
+	padding: 10px 20px;
+	display: inline-block;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 1em;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #666;
+}
+input[type=submit]:hover {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+  left: 2px;	
+}
+/*Styling for Portfolio page*/
+.portfolioBody {
+	height: 700px;
+	background-image: url(../images/witewall_3.png);
+	border-top: 2px solid #666;
+	border-bottom: 5px solid #4aaaa5;
+}
+.thumbnail {
+	width: 200px;
+	height: 150px;
+	margin: 10px;
+}
+.caption {
+	width: 190px;
+	height: 140px;
+	float: left;
+	margin: 10px;
+}
+.caption figcaption {
+	position: relative;
+	display: inline-block;
+	top: -60px;
+	left: 15px;
+	color: white;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 5px;
+	width: 190px;
+}
+@media only screen and (max-width: 980px) {
+	/*980 styling for all pages*/
+	body {
+		max-width: 980px;
+	}
+	.body {
+		height: 725px;
+	}
+	.top {
+		width: 50%;
+	}
+	header h1 {
+		float: left;
+		display: inline-block;
+		margin: 0 0 0 35px;
+		font-size: 2em;
+		padding: 10px;
+		text-align: center;
+		width: 60%;
+	}
+	h3 {
+		text-align: left;
+	}
+	.left {
+		width: 50%;
+		float: left;
+		margin: 20px 20px 20px 50px;
+	}
+	.right {
+		float: right;
+		width: 30%;
+		margin: 20px 50px 20px 20px;
+	}
+	.profilePic {
+		float: none;
+		width: 90%;
+		height: auto;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	img {
+		float: left;
+		margin-right: 10px;
+	}
+	/*980 styling for Contact*/
+	.contact {
+		width: 50%;
+		margin-right: 0;
+	}
+	.contactBody {
+		height: 450px;
+		background-image: url(../images/witewall_3.png);
+		border-top: 2px solid #666;
+		border-bottom: 5px solid #4aaaa5;
+	}
+	/*980 styling for Portfolio*/
+	.portfolioBody {
+		height: 1490px;
+	}
+	.thumbnail {
+		width: 90%;
+		height: auto;
+	}
+	.caption {
+		width: 90%;
+		height: auto;
+		float: left;
+		font-size: .75em;
+	}
+	.caption figcaption {
+		position: relative;
+		display: inline-block;
+		top: -60px;
+		left: 15px;
+		color: white;
+		font-size: 1.5em;
+		text-align: center;
+		background-color: #4aaaa5;
+		padding: 5px;
+		width: 87%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	/*768 styling for all pages*/
+	body {
+		max-width: 768px;
+	}
+	.body {
+		height: 555px;
+	}
+	.top {
+		width: 50%;
+	}
+	header h1 {
+		float: left;
+		display: inline-block;
+		margin: 0 0 0 5px;
+		font-size: 2em;
+		padding: 10px;
+		text-align: center;
+	}
+	h3 {
+		text-align: left;
+	}
+	.left {
+		width: 95%;
+		float: none;
+		margin: 20px;
+	}
+	.right {
+		float: none;
+		width: 95%;
+		margin: 0 0 0 20px;
+	}
+	.profilePic {
+		float: left;
+		width: 35%;
+		height: auto;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	img {
+		float: left;
+		margin-right: 10px;
+	}
+	/*768 styling for Contact*/
+	.contact {
+		width: 95%;
+		margin-right: 0;
+	}
+	.contactBody {
+		height: 610px;
+		background-image: url(../images/witewall_3.png);
+		border-top: 2px solid #666;
+		border-bottom: 5px solid #4aaaa5;
+	}
+	/*768 styling for Portfolio*/
+	.portfolioBody {
+		height: 1120px;
+	}
+	.thumbnail {
+		width: 90%;
+		height: auto;
+	}
+	.caption {
+		width: 45%;
+		height: auto;
+		float: left;
+		font-size: .75em;
+	}
+	.caption figcaption {
+		position: relative;
+		display: inline-block;
+		top: -60px;
+		left: 15px;
+		color: white;
+		font-size: 1.5em;
+		text-align: center;
+		background-color: #4aaaa5;
+		padding: 5px;
+		width: 87%;
+	}
+}
+@media only screen and (max-width: 640px) {
+	/*640 styling for all pages*/
+	body {
+		max-width: 640px;
+	}
+	.body {
+		height: 945px;
+	}
+	.top {
+		width: 100%;
+		padding: 0;
+	}
+	header h1 {
+		float: none;
+		display: inline-block;
+		margin: 0;
+		font-size: 2em;
+		width: 100%;
+		text-align: center;
+		box-sizing: border-box;
+	}
+	ul {
+		float: none;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+	.li h2 {
+		float: none;
+		margin: auto;
+	}
+	.profilePic {
+		float: none;
+		margin: auto;
+		margin-bottom: 10px;
+		width: 95%;
+		height: auto;
+	}
+	.left {
+		margin: 20px 20px 10px 20px;
+	}		
+	.right {
+		margin: 10px 20px 20px 20px;
+	}
+	.right h3 {
+		text-align: left;
+	}
+	/*640 styling for Contact*/
+	.contactBody {
+		height: 610px;
+		background-image: url(../images/witewall_3.png);
+		border-top: 2px solid #666;
+		border-bottom: 5px solid #4aaaa5;
+	}
+	.contact {
+		width: 95%;
+		margin-right: 0;
+	}
+	/*640 styling for Portfolio*/
+	.portfolioBody {
+		height: 2480px;
+	}
+	.thumbnail {
+		width: 95%;
+		height: auto;
+		margin: 10px;
+	}
+	.caption {
+		width: 95%;
+		height: auto;
+		float: none;
+		margin: 10px;
+	}
+	.caption figcaption {
+		position: relative;
+		display: inline-block;
+		top: -60px;
+		left: 15px;
+		color: white;
+		font-size: 1.5em;
+		text-align: center;
+		background-color: #4aaaa5;
+		padding: 5px;
+		width: 93.3%;
+	}
+}
+
